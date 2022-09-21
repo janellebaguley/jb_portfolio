@@ -1,27 +1,26 @@
 <template>
-  <div id="app">
-    <NavigateMenu/>
-  </div>
+  <component v-bind:is="layout">
+  </component>
 </template>
-
 <script>
-import NavigateMenu from './components/NavigateMenu.vue'
-
-export default {
-  name: 'App',
-  components: {
-    NavigateMenu
+  import LayoutDefault from './layouts/DefaultLayout'
+  import LayoutBlank from './layouts/BlankLayout'
+  export default {
+      components: {
+          'layout-default': LayoutDefault,
+          'layout-blank': LayoutBlank,
+      },
+      computed: {
+          layout() {
+              if (this.$route.path === '/homebase') {
+                  return LayoutBlank;
+              } else {
+                  return LayoutDefault
+              }
+          }
+      }
   }
-}
 </script>
-
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  
 </style>
