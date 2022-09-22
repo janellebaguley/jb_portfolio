@@ -34,6 +34,31 @@
            </v-row>
          </v-container>
        </v-main>
+
+       <v-footer class='ma-0 pa-0' color="#535252" style="height:150px; width:'max-width'">
+        <v-container style="height: 100px; width:'max-width'">
+          <v-card class='ma-0 pa-0 mx-2' style="height: 100px; width:'max-width'">
+            <v-row>
+              <v-col class='ml-10 mt-6'>
+             <v-btn class='ma-0 pa-0' color='fff' @click='aboutMe' text dense> About Me</v-btn>
+           </v-col>
+          
+           <v-col class='mt-6'>
+             <v-btn class='ma-0 pa-0' color='' @click='uxPortfolio' text dense> UX Portfolio</v-btn>
+           </v-col>
+           <v-col class='mt-6'>
+             <v-btn class='ma-0 pa-0' color='' @click='devPortfolio' text dense> Dev Portfolio</v-btn>
+           </v-col>
+           <v-col class='mt-6'>
+             <v-btn class='ma-0 pa-0' color='' @click='contactMe' text dense> Contact Me</v-btn>
+           </v-col>
+           <v-col class='mt-6'>
+             <v-btn class='ma-0 pa-0' color='' @click='etsyShop' text dense> Etsy Shop</v-btn>
+           </v-col>
+            </v-row>
+          </v-card>
+        </v-container>
+       </v-footer>
      </v-app>
    </template>
    <script>
@@ -73,6 +98,11 @@
            name: "ContactMe",
          });
        },
+       etsyShop(){
+         this.$router.push({
+           name: "EtsyShop",
+         });
+       },
      }
    };
    </script>
@@ -90,11 +120,6 @@
   background-color: #535252 !important;
 }
 
-.v-list-item__title {
-  align-self: center;
-  font-size: 1rem !important;
-  margin-top: 2px !important;
-}
 
 .theme--light.v-data-table > .v-data-table__wrapper > table > thead > tr > th {
   color: white !important;
@@ -127,14 +152,6 @@ h1 {
 }
 
 
-.v-application--is-ltr .v-list-item__action:first-child,
-.v-application--is-ltr .v-list-item__icon:first-child {
-  margin-right: 24px !important;
-}
-
-.v-card__title.headline.primary {
-  color: #ffffff !important;
-}
 
 .v-application--is-ltr
   .v-list-group--no-action
@@ -150,15 +167,6 @@ h1 {
 .v-list-item.v-list-group__header {
   padding-left: 0;
 }
-
-
-.container {
-  width: 100%;
-  padding: 12px;
-  margin-right: 200px;
-  margin-left: 200px;
-}
-
 
 .nobr {
   white-space: nowrap;
