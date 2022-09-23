@@ -142,48 +142,72 @@
         </v-col>
       </v-row>
       <v-divider/>
-      <v-row class="ml-5 mr-3 mt-2">
+      <v-row class="ma-0 pa-0 ml-5 mr-3 mt-2">
         <v-col class="ma-0 pa-0">
           <h4>Macguyver Tech | Remote</h4>
         </v-col>
         <v-col cols="5"/>
-        <v-col class="mx-3 mt-2">
+        <v-col class="ma-0 pa-0 mx-3 mt-2">
           <h4>August 2021 - April 2022</h4>
         </v-col>
       </v-row>
-      <v-row class="mx-3">
-        <v-col>
-          <h4></h4>
+      <v-row class="ma-0 pa-0 mx-3">
+        <v-col class="ma-0 pa-0">
+          <h4>Web Developer | Team Lead | Project Manager</h4>
         </v-col>
       </v-row>
       <v-row class="mx-3">
-        <v-col>
-          <h4></h4>
+        <v-col class="ma-0 pa-0 mx-5">
+          <li>Utilized VueJS for creating internal and external client applications</li>
         </v-col>
       </v-row>
       <v-row class="mx-3">
-        <v-col>
-          <h4></h4>
+        <v-col class="ma-0 pa-0 mx-5">
+          <li>Led a team of 4 for client project completion</li>
         </v-col>
       </v-row>
       <v-row class="mx-3">
-        <v-col>
-          <h4></h4>
+        <v-col class="ma-0 pa-0 mx-5">
+          <li>Worked with and met with clients, via zoom, to understand needs for new software: intranet and extranet websites.</li>
+        </v-col>
+      </v-row>
+      <v-row class="ma-0 pa-0 ml-5 mr-3 mt-2">
+        <v-col class="ma-0 pa-0">
+          <h4>Salesforce | Salt Lake City, UT</h4>
+        </v-col>
+        <v-col cols="5"/>
+        <v-col class="ma-0 pa-0 mx-3 mt-2">
+          <h4>July 2016 - November 2020</h4>
+        </v-col>
+      </v-row>
+      <v-row class="ma-0 pa-0 mx-3">
+        <v-col class="ma-0 pa-0">
+          <h4>Customer Support Engineer</h4>
+        </v-col>
+      </v-row>
+      <v-row class="ma-0 pa-0 mx-3">
+        <v-col class="ma-0 pa-0">
+          <h4>PostgreSQL | Retail.net | Excel | WinSCP | Linux | Quip | Toad | Salesforce CRM | Suse | Confluence | Jira</h4>
         </v-col>
       </v-row>
       <v-row class="mx-3">
-        <v-col>
-          <h4></h4>
+        <v-col class="ma-0 pa-0 mx-5">
+          <li>Data fixes for unposted Retail transactions, employing Linux and Toad SQL, as well as PostgreSQL</li>
         </v-col>
       </v-row>
       <v-row class="mx-3">
-        <v-col>
-          <h4></h4>
+        <v-col class="ma-0 pa-0 mx-5">
+          <li>Case Management and Customer Service responses as a Level 2 Support Engineer</li>
         </v-col>
       </v-row>
       <v-row class="mx-3">
-        <v-col>
-          <h4></h4>
+        <v-col class="ma-0 pa-0 mx-5">
+          <li>Used Confluence to search and add training documents</li>
+        </v-col>
+      </v-row>
+      <v-row class="mx-3 pb-2">
+        <v-col class="ma-0 pa-0 mx-5">
+          <li>Jira was used to submit, and update requests to our development team</li>
         </v-col>
       </v-row>
   </v-card>
