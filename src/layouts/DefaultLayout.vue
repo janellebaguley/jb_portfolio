@@ -148,7 +148,7 @@ h1 {
   .v-data-table-header
   th.sortable.active
   .v-data-table-header__icon {
-  color: white !important;
+  color: black !important;
 }
 
 
@@ -161,11 +161,14 @@ h1 {
 }
 
 .v-list-item__icon.v-list-group__header__append-icon {
-  color: white !important;
+  color: black !important;
 }
 
 .v-list-item.v-list-group__header {
   padding-left: 0;
+}
+.theme--light.v-expansion-panels .v-expansion-panel-header .v-expansion-panel-header__icon .v-icon {
+  color: black !important;
 }
 
 .nobr {
